@@ -3,7 +3,7 @@ cask "gsdw-cc" do
   name "gsdw-cc"
   desc "GSD + Beads/Dolt workflow orchestration for Claude Code"
   homepage "https://github.com/The-Artificer-of-Ciphers-LLC/gsd-wired"
-  version "1.1.7"
+  version "1.1.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gsdw-cc" do
   on_macos do
     on_intel do
       url "https://github.com/The-Artificer-of-Ciphers-LLC/gsd-wired/releases/download/v#{version}/gsd-wired_darwin_amd64.tar.gz"
-      sha256 "21a9d73ecedd155d3e66ee988547ca99dc6d6f77035c788c607d34639d1e76de"
+      sha256 "35f477a44498dbe8911b760dd6d72e85de1a0cc9cd61a3b01b67fcc08f0dc973"
     end
     on_arm do
       url "https://github.com/The-Artificer-of-Ciphers-LLC/gsd-wired/releases/download/v#{version}/gsd-wired_darwin_arm64.tar.gz"
-      sha256 "f8d94c110e062a603a3ef065d496cb0c439ef07370655862e4065387188fcd22"
+      sha256 "0d928e0519ba8a03f5f9f2ccedd005226764ee4c0b8c521fbfb3fe7efdf5f421"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/The-Artificer-of-Ciphers-LLC/gsd-wired/releases/download/v#{version}/gsd-wired_linux_amd64.tar.gz"
-      sha256 "8554a8733f29b635aeab728f0fe70d8460028addd930669a6b52609ac3c3993d"
+      sha256 "41caaf567faad77c767021cdaaeff54839775296ccf5be318745c792b02516cd"
     end
     on_arm do
       url "https://github.com/The-Artificer-of-Ciphers-LLC/gsd-wired/releases/download/v#{version}/gsd-wired_linux_arm64.tar.gz"
-      sha256 "e7ad49bb1baa10bf5cce9281ef6d57c05d5bd075cc423250262045942cc2d69f"
+      sha256 "5bd8b44d6e3c5e9e0a1c49ebbd209b5e991899a9350cbd5a2f5f450cdfe3d71f"
     end
   end
 
